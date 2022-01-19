@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="inner1">
+            <div id="head">
+            <h1 id="countdown_min_heading">00</h1>
+            <h1>:</h1>
+            <h1 id="countdown_sec_heading">00</h1>
+            </div>
+        </div>
+        <div class="inner2">
+            <div class="session_time">
+                <p style="font-weight: bold;color:white">Session Time</p>
+                <p id="session_time_para" style="color:blue;font-size:large;">0 min</p>
+                <button id="session_plus" style="background-color: black;color:white;border-radius:5px">+</button>
+                <button id="session_minus" style="background-color: black;color:white;border-radius:5px">-</button>
+                <br><br><br>
+                <button id="start_button">Start</button>
+            </div>
+            <div class="break_time">
+                <p style="font-weight: bold;color:white">Break Time</p>
+                <p id="break_time_para" style="color:red;font-size:large;">0 min</p>
+                <button id="break_plus" style="background-color: black;color:white;border-radius:5px">+</button>
+                <button id="break_minus" style="background-color: black;color:white;border-radius:5px">-</button>
+                <br><br><br>
+                <button id="reset_button">Reset</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./file.js"></script>
+</html>
